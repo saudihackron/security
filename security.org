@@ -1,0 +1,142 @@
+#+TITLE: HA's CompTIA Security+ Config
+#+AUTHOR: Hussien Almalki (HA)
+#+DESCRIPTION: HA's personal CompTIA Security+ config.
+#+STARTUP: showeverything
+#+OPTIONS: toc:2
+#+EMAIL: r00t@hotmail.sg
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t   toc:3 \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:nil
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS:   author:t creator:t timestamp:t email:t
+#+KEYWORDS:  Emacs Org-Mode Template
+#+OPTIONS: toc:2
+
+* TABLE OF CONTENTS :toc:
+- [[#threats-attacks-and-vulnerabilties][Threats, Attacks, and Vulnerabilties]]
+  - [[#social-engineering-techniques][Social Engineering Techniques]]
+  - [[#attack-basics][Attack Basics]]
+  - [[#password-attacks][PASSWORD ATTACKS]]
+
+* Threats, Attacks, and Vulnerabilties
+:PROPERTIES:
+:CUSTOM_ID: ThreatsAttacksAndVulnerabilties
+:END:
+** Social Engineering Techniques
+:PROPERTIES:
+:CUSTOM_ID: SocialEngineeringTechniques
+:END:
+~Social engineering is the process by which an attacker seeks to extrat useful information from users.~
+
+*Principles of Security* =CIA= Triad
+1. Confidentiality
+2. Integrity
+3. Availability
+
+*Vulnerability*
+- Weakness
+Examples
+  - Software bugs
+  - Defaults
+  - Weak passwords
+
+*Threat*
+ - Events that violate CIA
+ Examples
+  - Malware
+  - Phishing scam
+  - Hackers
+
+ *Attacks*
+ - Exploits Vulnerabilities
+    - Network Attacks
+    - Application Attacks
+
+*Social Engineering*
+- Bad people tricking
+  authorized users
+
+*Social Engineering - Techniques*
+- Phishing
+  Phishing is an attempt to acquire sensitive information by masquerading as a trustworthy entity via electronic communication (usually email).
+- Vishing
+    Also known as voice phishing, vishing is the use of fake caller ID to appear as a trusted organization and attempts to get an individual to enter account details via the phone.
+- Smishing
+    smishing is the use of phishing methods through text messaging.
+- Spear phishing
+    This is a targeted version of phishing. Whereas phishing oftern involves mass emailing, spear phishing goes after a specific individual.
+- Whaling
+    Goes after high-profile targets, such as an executive within a company.
+- Spam
+- Spim (instant messaging)
+  
+*Physical Techniques*
+  - Dumpster diving
+    Intruders Know this and scavenge for discarded equipment and documents in an act called =Dumpster diving=
+  - Shoulder surfing
+  - Tailgating
+  - Pretexting
+
+*Outliers*
+  - Invoice scam
+  - Hoax
+  - Prepending
+
+
+
+** Attack Basics
+:PROPERTIES:
+:CUSTOM_ID: AttackBasics 
+:END:
+
+*Malware*
+  1. Memory: After malware is executed, it might reside in memory.
+  2. Registries: The Windows registry, for example, provides various system settings that malware often targets.
+  3. Macros
+
+*Viruses* 
+A virus is a program or piece of code that runs on a computer, often without the user's knowledge.
+- Resident virus.
+- Nonresident virus.
+- Boot sector virus.
+- Macro virus.
+- Program and file infecting virus.
+- Polymorphic virus.
+- Armored virus.
+- Stealth virus.
+- Multipartite virus.
+
+
+*Worms*
+Worms are ~self-replicating~ and do not need a host file.
+
+*Trojan*
+Are programs disguised as useful applications. ~Trojans do not replicate themselves as viruses do~, trojans are often associated with =backdoors= created.
+
+*Rootkits*
+A rootkit is a piece of software that can be installed and hidden on a computer mainly to compromise the system and gain escalated privileges.
+
+*Logic Bombs*
+
+*Bots*
+A bot short for robot, is an automated computer program that needs no user interaction.
+
+*Crypto-Malware*
+*Potentially Unwanted Programs (PUPs)*
+*Spyware*
+*Crypto Mining Software*
+
+
+** PASSWORD ATTACKS
+:PROPERTIES:
+:CUSTOM_ID: PasswordAttacs
+:END:
+The most common form of authentication and user access control is the =username/password= which can be signigicantly weakened as a security measure if the user selects a weak password. There are four common methods of attacking passwords:
+ 1. Dictionary attack
+ 2. Brute-force attack
+ 3. Spraying
+ 4. Rainbow table
+
+ Attacks against passwords usually fall into two broad categories:
+ - online attacks.
+ - offline attacks.
+
