@@ -16,6 +16,7 @@
   - [[#social-engineering-techniques][Social Engineering Techniques]]
   - [[#attack-basics][Attack Basics]]
   - [[#password-attacks][PASSWORD ATTACKS]]
+  - [[#application-attacks][Application Attacks]]
 
 * Threats, Attacks, and Vulnerabilties
 :PROPERTIES:
@@ -140,3 +141,17 @@ The most common form of authentication and user access control is the =username/
  - online attacks.
  - offline attacks.
 
+** Application Attacks
+:PROPERTIES:
+:CUSTOME_ID: ApplicationAtacks
+:END:
+
+*Privilege escalation*
+=Privilege escalation= refers to the act of exploiting a ~vulnerability or a weakness~ in a system or application to gain higher levels of access or permissions than originally intended or authorized.
+
+*Cross-site scripting (XSS)*
+Cross-site scripting (XSS) ~is a type of security vulnerability found in web applications that enables an attacker to inject client-side scripts into web pages viewed by other users~. XSS attacks occur when an attacker injects malicious code, typically in the form of a script written in JavaScript or HTML, into a vulnerable web page. When a user visits the compromised web page, the script executes within the user's web browser, allowing the attacker to steal data, modify or delete web page content, or take control of the user's session on the vulnerable website.
+
+XSS attacks can take different forms, including =reflected XSS=, =stored XSS=, and =DOM-based XSS=, and can be classified as either ~persistent or non-persistent~. Persistent XSS involves injecting malicious code that is permanently stored on the target web server and executed every time a user visits a vulnerable page. Non-persistent XSS involves injecting malicious code that is only temporarily stored on the target server and executed when a user visits a specific, compromised URL.
+
+Preventing XSS attacks typically involves input validation and output encoding to ensure that user-supplied data is not executed as code in the user's web browser. Other strategies include the use of content security policies and the implementation of measures to prevent unauthorized access to cookies or session tokens.
